@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./public/style/reset.css">
+    <link rel="stylesheet" href="./public/style/style.css">
+
+    <title>Fitness [Test 2]</title>
+</head>
+<body>
+    <div class="alert__message" id="alert-message">
+        <div class="close" onclick="closeAlert()"><span>Закрыть</span></div>
+        <div class="wrapper__content">
+            <h1>Внимание!</h1>
+            <p>Скидка 50% на все товары, успей купить все!</p>
+        </div>
+    </div>
+
+    <div class="header">
+        <div class="wrapper__content">
+            <div class="logo__company">
+                <img src="./public/img/logo.png" alt="logo">
+            </div>
+            <div class="title__text">
+                <span>Магнитный корректор осанки</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="timer">
+        <div class="wrapper__content">
+            <span>Успей, установлен таймер на 24 часа</span>
+            <div class="time">
+                <span id="h">00</span>:<span id="m">00</span>:<span id="s">00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main__container">
+        <div class="info_1">
+            <div class="dots_an1"></div>
+            <div class="dots_an2"></div>
+            <img src="./public/img/offer__image.jpg" alt="offer-image">
+        </div>
+        <div class="info_2">
+            <span>100% Гарантия</span>
+            <span>1 Место</span>
+            <span>Бесплатная доставка</span>
+        </div>
+    </div>
+    <div class="price__container">
+        <div class="price">
+            <div class="old">
+                <p>Обычная цена</p>
+                <span class="old_p">32000тг</span>
+            </div>
+            <div class="new">
+                <p>Новая цена</p>
+                <span class="new_p">32000тг</span>
+            </div>
+        </div>
+
+        <div class="info_products">
+            <ul>
+                <li>· Стабилизирует нагрузку на позвоночник</li>
+                <li>· Устраняет хронические боли в спине</li>
+                <li>· Фиксирует и выравнивает положение спины</li>
+                <li>· Помогает развивать пресс</li>
+            </ul>
+        </div>
+
+        <button class="by">Купить сейчас!</button>
+    </div>
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
